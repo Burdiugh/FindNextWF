@@ -36,6 +36,7 @@ namespace FindNextWF
 
         private void Start_Click(object sender, EventArgs e)
         {
+            _ticks2 = 0;
             if (hardBar.Value == 1)
             {
                 _ticks = 300;
